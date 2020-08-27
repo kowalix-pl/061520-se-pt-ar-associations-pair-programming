@@ -1,4 +1,4 @@
-# Intro to Active Record
+# Active Record Associations
 
 ## Getting Started
 
