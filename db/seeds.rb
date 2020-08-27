@@ -25,6 +25,7 @@ legion_of_doom = [
   { name: "Black Manta", power: "High tech manta suit", desire: "Control of the sea" },
   { name: "Captain Cold", power: "Freeze Ray", desire: "Ice ice baby" }
 ]
+legion_of_doom.each { |villain| Villain.create(villain) }
 
 cities = [
   { name: "Gotham City" },
@@ -32,3 +33,5 @@ cities = [
   { name: "Central City" },
   { name: "Atlantis" }
 ]
+cities.each { |city| City.create(city) }
+
